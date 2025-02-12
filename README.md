@@ -44,9 +44,8 @@ The application will start on **http://127.0.0.1:5000/**.
 Cybersecurity Engineer   
 GitHub: [Hackerpoorna](https://github.com/Hackerpoorna)
 
-## **License**
-This project is licensed under the **MIT License**.
 
 ---
- **AI Web Security Analyzer** - Elevating Web Security with AI 
+ **FINALLY
+ AI Web Security Analyzer** - Elevating Web Security with AI 
 
