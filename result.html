@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Results</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #0d0d0d;
+            color: #00ff00;
+            text-align: center;
+        }
+        .container {
+            background: black;
+            border: 2px solid #00ff00;
+            padding: 20px;
+            width: 80%;
+            margin: auto;
+            border-radius: 5px;
+        }
+        pre {
+            text-align: left;
+            background: black;
+            color: #00ff00;
+            padding: 10px;
+            border: 1px solid #00ff00;
+            overflow-x: auto;
+        }
+        button {
+            padding: 10px 20px;
+            background: #00ff00;
+            border: none;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>🕵️‍♂️ Scan Results</h1>
+    <div class="container">
+        <h2>📍 IP Address</h2>
+        <p>{{ ip_address }}</p>
+        <h2>🛠️ Detected Framework</h2>
+        <p>{{ framework }}</p>
+        <h2>📡 Nmap Scan Results</h2>
+        <pre>{{ nmap }}</pre>
+        <h2>💉 SQLMap Scan Results</h2>
+        <pre>{{ sqlmap }}</pre>
+    </div>
+</body>
+</html>
