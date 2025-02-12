@@ -38,13 +38,7 @@ pip install -r requirements.txt
 python main.py
 ```
 The application will start on **http://127.0.0.1:5000/**.
-
-## ** Screenshots**
-**Dark Mode - Hacker Console UI**  
-**AI-Based Security Report Page**  
-
-*(Add screenshots here to showcase the UI and reports!)*
-
+ 
 ## **Project Creator**
 **Poornachandra Vatambedu**  
 Cybersecurity Engineer   
